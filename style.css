@@ -1,0 +1,85 @@
+body{
+    text-align: center;
+}
+
+h1{
+    color: lightslategray;
+}
+
+h2{
+    font-size: 50px;
+}
+
+.container{
+    margin: auto;
+    width: 700px;
+    height: 500px;
+    background:linear-gradient(lightblue,lightgreen);
+    border-radius: 35px;
+    box-shadow:0 0 2px 1px rgba(0, 0 ,0,  0.2);
+    position: relative;
+}
+
+.balls{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+.card{
+    background-color: firebrick;
+    position: absolute;
+    width: 300px;
+    height: 450px;
+    top: 15px;
+    right: 15px;
+    border-radius: 35px;
+    font-size: xx-large;
+}
+
+.option{
+    position: absolute;
+    width: 300px;
+    height: 75px;
+    background-color: lightcyan;
+    opacity: 0.8;
+    border-radius: 35px;
+    cursor: pointer;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+button:hover{
+    transform: scale(1.01);
+    opacity: 0.9;
+}
+
+.option1{
+    bottom: 130px;
+    left: 15px;
+}
+.option2{
+    bottom: 50px;
+    left: 15px;
+}
+
+.restart{
+
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: firebrick;
+    opacity: 0.8;
+    font-size: 25px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.win{
+    position: absolute;
+    left: 50px;
+    top:15px;
+}
+

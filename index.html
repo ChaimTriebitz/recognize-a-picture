@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>in-picture</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body onload="initGame()">
+		<h1>Balls In-Pictures</h1>
+		<div class="container">
+			<img class="balls" src="img/balls.png" alt="balls img" />
+			<div class="card"></div>
+			<div class="win">
+				<h2>You Won!!!</h2>
+				<button class="restart" onclick="initGame()">Restart</button>
+			</div>
+
+			<button class="option option1" onclick="checkAnswer(this)"></button>
+			<button class="option option2" onclick="checkAnswer(this)"></button>
+		</div>
+
+		<script src="main.js"></script>
+	</body>
+</html>
